@@ -7,7 +7,6 @@ Quick start
 1. Install dependencies
 
 ```bash
-cd "/Users/giselle/Documents/College Projects/RPAapi"
 npm install
 ```
 
