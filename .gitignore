@@ -1,0 +1,60 @@
+### Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files
+.env
+.env.*.local
+.env.local
+
+### Build / output
+dist/
+build/
+.next/
+.nuxt/
+out/
+
+### Coverage
+coverage/
+.nyc_output/
+
+### Cache
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+
+### OS files
+.DS_Store
+Thumbs.db
+
+### Logs
+*.log
+logs/
+logs/*
+
+### Editor folders
+.vscode/
+.idea/
+.history/
+
+### PID files
+pids/
+*.pid
+
+### Data (local test files)
+data/*.json
+
+### Serverless / temporary
+.serverless/
+.sass-cache/
+node_modules
+data/*.json
+*.log
+.env
+.DS_Store
+coverage/
+.vscode/

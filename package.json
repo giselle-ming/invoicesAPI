@@ -1,0 +1,20 @@
+{
+  "name": "rpa-invoice-api",
+  "version": "0.1.0",
+  "description": "Simple Invoice API for posting and retrieving invoice data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
