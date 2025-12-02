@@ -62,4 +62,15 @@ router.get("/:id", async (req, res) => {
   }
 });
 
+// Delete all invoices
+router.delete("/", async (req, res) => {
+  try {
+    await writeData([]);
+    res.status(204).send();
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Failed to delete invoices" });
+  }
+});
+
 module.exports = router;
